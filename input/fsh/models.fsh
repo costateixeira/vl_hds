@@ -1,6 +1,7 @@
 Logical: ExampleModel
 Title: "ExampleModel"
 Description: "Example Model"
+Characteristics: #can-be-target
 
 * dateTimeReceived 1..1 TS "Timestamp received"
 * dataProvider 0..1 Class "Data provider"
