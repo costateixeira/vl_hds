@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example/ImplementationGuide/my-ig",
+    "version" : "1.0.0",
+    "name" : "ExampleVLHDS"
+  },
+  {
+    "id" : "Class",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Class",
+    "version" : "1.0.0",
+    "name" : "Class"
+  },
+  {
+    "id" : "ExampleModel",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ExampleModel",
+    "version" : "1.0.0",
+    "name" : "ExampleModel"
+  },
+  {
+    "id" : "ST20",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ST20",
+    "version" : "1.0.0",
+    "name" : "ST20"
+  },
+  {
+    "id" : "TS",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/TS",
+    "version" : "1.0.0",
+    "name" : "TS"
+  }
+]

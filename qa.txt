@@ -1,0 +1,26 @@
+ExampleVLHDS : Validation Results
+=========================================
+
+err = 0, warn = 7, info = 0
+IG Publisher Version: 1.6.4
+Generated Tue Apr 16 05:23:23 UTC 2024. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Class : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ExampleModel : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ST20 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+== fsh-generated/resources/StructureDefinition-Class.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/Class'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-ExampleModel.json ==
+== fsh-generated/resources/StructureDefinition-ST20.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ST20'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-TS.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/TS'): The Implementation Guide contains no examples for this data type profile
